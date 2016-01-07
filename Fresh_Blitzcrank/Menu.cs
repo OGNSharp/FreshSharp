@@ -45,9 +45,9 @@ namespace Fresh_Britzcrank
                             Misc.SubMenu("그랩설정").AddItem(new MenuItem("GrabSelect" + enemy.ChampionName, enemy.ChampionName)).SetValue(new StringList(new[] { "사용", "미사용", "자동" }));
                         }
                     }
-                    Misc.SubMenu("Interrupt").AddItem(new MenuItem("InterQ", "Q 사용").SetValue(true));
-                    Misc.SubMenu("Interrupt").AddItem(new MenuItem("InterE", "E 사용").SetValue(true));
-                    Misc.SubMenu("Interrupt").AddItem(new MenuItem("InterR", "R 사용").SetValue(true));
+                    Misc.SubMenu("방해").AddItem(new MenuItem("InterQ", "Q 사용").SetValue(true));
+                    Misc.SubMenu("방해").AddItem(new MenuItem("InterE", "E 사용").SetValue(true));
+                    Misc.SubMenu("방해").AddItem(new MenuItem("InterR", "R 사용").SetValue(true));
                 }
                 _MainMenu.AddSubMenu(Misc);
 
