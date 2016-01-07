@@ -55,7 +55,7 @@ namespace FreshRyze
                 LaneClear.AddItem(new MenuItem("LUseQ", "Q 사용").SetValue(true));
                 LaneClear.AddItem(new MenuItem("LUseW", "W 사용").SetValue(true));
                 LaneClear.AddItem(new MenuItem("LUseE", "E 사용").SetValue(true));
-                LaneClear.AddItem(new MenuItem("LManaRate", "최소마나 (%)").SetValue(new Slider(20)));
+                LaneClear.AddItem(new MenuItem("LManaRate", "최소 마나 (%)").SetValue(new Slider(20)));
             }
             _MainMenu.AddSubMenu(LaneClear);
 
