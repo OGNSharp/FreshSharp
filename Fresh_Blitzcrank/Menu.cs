@@ -42,7 +42,7 @@ namespace Fresh_Britzcrank
                     {
                         if(enemy.Team != Program.Player.Team)
                         {
-                            Misc.SubMenu("SetGrab").AddItem(new MenuItem("GrabSelect" + enemy.ChampionName, enemy.ChampionName)).SetValue(new StringList(new[] { "Enable", "Dont", "Auto" }));
+                            Misc.SubMenu("그랩설정").AddItem(new MenuItem("GrabSelect" + enemy.ChampionName, enemy.ChampionName)).SetValue(new StringList(new[] { "사용", "미사용", "자동" }));
                         }
                     }
                     Misc.SubMenu("Interrupt").AddItem(new MenuItem("InterQ", "Q 사용").SetValue(true));
