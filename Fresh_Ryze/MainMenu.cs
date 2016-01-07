@@ -22,7 +22,7 @@ namespace FreshRyze
             TargetSelector.AddToMenu(targetSelectorMenu);
             _MainMenu.AddSubMenu(targetSelectorMenu);
 
-            var Melee = new Menu("근거리(?)", "Melee Attack");
+            var Melee = new Menu("평타사용여부", "Melee Attack");
             {
                 Melee.AddItem(new MenuItem("MCombo", "콤보").SetValue(true));
                 Melee.AddItem(new MenuItem("MHarass", "견제").SetValue(true));
@@ -72,7 +72,7 @@ namespace FreshRyze
             {
                 Misc.AddItem(new MenuItem("AutoStack", "자동 스택").SetValue(new Slider(0, 0, 4)));
                 Misc.AddItem(new MenuItem("AutoLasthit", "Q,E 자동 막타").SetValue(false));
-                Misc.AddItem(new MenuItem("WGap", "자동 W 거리좁히기").SetValue(true));
+                Misc.AddItem(new MenuItem("WGap", "자동 W 안티갭클로저").SetValue(true));
                 Misc.AddItem(new MenuItem("OnlyCombo", "(WEWQ)만 사용").SetValue(false));
             }
             _MainMenu.AddSubMenu(Misc);
