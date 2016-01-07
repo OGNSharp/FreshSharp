@@ -12,7 +12,7 @@ namespace Fresh_Britzcrank
         public static Orbwalking.Orbwalker _OrbWalker;
         public static void Menu()
         {
-            try // try start
+            try
             {
                 _MainMenu = new Menu("프레시 블리츠크랭크", "FreshBlitzcrank", true).SetFontStyle(System.Drawing.FontStyle.Regular, Color.Aqua); ; ;
                 _MainMenu.AddToMainMenu();
