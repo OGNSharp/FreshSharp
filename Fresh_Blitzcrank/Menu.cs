@@ -31,7 +31,7 @@ namespace Fresh_Britzcrank
                     Combo.AddItem(new MenuItem("CUse_W", "W 사용").SetValue(true));
                     Combo.AddItem(new MenuItem("CUse_E", "E 사용").SetValue(true));
                     Combo.AddItem(new MenuItem("CUse_R", "R 사용").SetValue(true));
-                    Combo.AddItem(new MenuItem("CUseQ_Hit", "그랩정확도 (3추천)").SetValue(new Slider(6,1,6)));
+                    Combo.AddItem(new MenuItem("CUseQ_Hit", "그랩정확도 (6추천)").SetValue(new Slider(6,1,6)));
                     Combo.AddItem(new MenuItem("CKey", "콤보 키").SetValue(new KeyBind(32, KeyBindType.Press)));
                 }
                 _MainMenu.AddSubMenu(Combo);                
